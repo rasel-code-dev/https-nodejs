@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add node-rsa
+
+PATH: 
+  D:\Code\https-nodejs\node_modules\.bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Program Files\JetBrains\WebStorm 2021.2.3\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files\Redis\;C:\Users\RaseL\AppData\Local\Microsoft\WindowsApps;C:\Users\RaseL\AppData\Roaming\npm;C:\Program Files\JetBrains\WebStorm 2021.2.3\bin;;C:\Users\RaseL\AppData\Local\Yarn\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files (x86)\heroku\bin;C:\Program Files\MongoDB\Tools\100\bin;
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  16.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\Code\https-nodejs\node_modules\.yarn-integrity'
+
+npm manifest: 
+  {
+    "name": "https-nodejs",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "dev": "nodemon server.js"
+    },
+    "dependencies": {
+      "cors": "^2.8.5",
+      "express": "^4.17.1",
+      "nodemon": "^2.0.14",
+      "pem": "^1.14.4",
+      "spdy": "^4.0.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

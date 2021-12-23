@@ -1,0 +1,43 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add axios
+
+PATH: 
+  D:\Code\https-nodejs\node_modules\.bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Redis\;C:\Go\bin;C:\Users\RaseL\AppData\Local\Microsoft\WindowsApps;C:\Users\RaseL\AppData\Local\Yarn\bin;C:\Users\RaseL\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\5.0\bin;C:\Users\RaseL\go\bin;C:\Users\RaseL\AppData\Local\Programs\mongosh\;C:\Users\RaseL\Desktop\httpd-2.4.51-win64-VS16\Apache24\bin;C:\Users\RaseL\Desktop\apache-jmeter-5.4.1\apache-jmeter-5.4.1\bin;C:\Program Files\OpenSSL-Win64\bin;
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  16.6.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "name": "client",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "serve": "vite preview"
+    },
+    "dependencies": {
+      "react": "^17.0.0",
+      "react-dom": "^17.0.0"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-react": "^1.0.0",
+      "vite": "^2.6.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

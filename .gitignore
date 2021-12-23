@@ -1,0 +1,10 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+client/node_modules
+localhost.pem
+localhost-key.pem
+client/localhost-key.pem
+client/localhost.pem

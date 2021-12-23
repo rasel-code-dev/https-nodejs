@@ -1,0 +1,24 @@
+
+ul{
+  margin: 0 5px;
+}
+li{
+  list-style: none;
+  display: flex;
+  /*margin-left: -40px;*/
+}
+.item{
+  /*display: flex;*/
+}
+.file_icon{
+}
+.file_icon{
+  width: 17px;
+  margin-right: 5px;
+}
+
+
+.dir_icon{
+  width: 18px;
+  margin-right: 5px;
+}
