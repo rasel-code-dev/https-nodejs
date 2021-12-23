@@ -9,7 +9,9 @@ function App() {
   
   React.useEffect(()=>{
     getApis().get("/").then(response=>{
-      console.log(response)
+      let decrypted = CryptoJS.AES.decrypt(response.data, "pass")
+      let data = CryptoJS.enc.Utf8.stringify(decrypted)
+      console.log(data)
     })
   }, [])
   
